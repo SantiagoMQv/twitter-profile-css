@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        *{
+            color: #E9EEEF;
+            font-family: Roboto;
+            font-size: 14px;
+            margin: 0px;
+        }
+
+        a{
+            color:#1C8DD9;
+        }
+
+        .TwitterUser{
+            width: 600px;
+            height: 500px;
+            background: #15202B;
+            position: relative;
+        }
+        .HeaderImg{
+            overflow: hidden;
+            width: 600px;
+            height: 200px;
+        }
+        .HeaderImg img{
+            width: 100%; 
+        }
+        .Avatar{
+            width: 140px;
+            height: 130px;
+            border-radius: 50%;
+            border: 5px solid #15202B; 
+            overflow: hidden;
+            position: relative;
+            bottom: 70px;
+            left: 10px;
+        }
+        .Avatar img{
+            width: 100%; 
+            bottom: 10px;
+            position: relative;
+            
+        }
+        .TwitterUser button{
+
+            border-radius: 25px;
+            border: 1px solid #485865;
+            background: #15202B;
+            padding: 10px 15px;
+            position: absolute;
+            font-weight: 900;
+            top: 210px;
+            right: 10px;
+            font-size: 15px;
+        }
+        .Data{
+            position: relative;
+            bottom: 55px;
+            left: 15px;
+        }
+        .Data .Name{
+            font-weight: 900;
+            font-size: 19px;
+        }
+        .Data .User{
+            color: #8B98A5;
+        }
+        .Data .Description{
+            width: 450px;
+            height: 50px;
+            position: relative;
+            top: 15px;
+        }
+        .Data i{
+            color: #8B98A5;
+        }
+        .Data .Elements p{
+            color: #8B98A5;
+        }
+        .Data .Elements{
+            position: relative;
+            top: 15px;
+            display: flex;
+            gap: 12px;
+            width: 550px;
+            height: 50px;
+        }
+        .Data .Elements .element{
+            display: flex;
+            gap: 5px;
+            
+        }
+
+        .Data .following{
+            position: relative;
+            top: 0px;
+            display: flex;
+            gap: 12px;
+            width: 550px;
+            height: 50px;
+        }
+
+        .Data .following .element{
+            display: flex;
+            gap: 2px;
+        }
+
+        .Data .following .element .number{
+            font-weight: 900;
+        }
+
+        .Data .following .element .text{
+            color: #8B98A5;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/c7670de6f1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section>
+        <div class="TwitterUser">
+
+            <div class="HeaderImg">
+                <img  src="https://pbs.twimg.com/profile_banners/451710519/1486252558/600x200" alt="">
+            </div>
+
+            <div class="Avatar">
+                <img  src="https://pbs.twimg.com/profile_images/1559579706298605568/ZLD0Y62D_400x400.jpg" alt="">
+            </div>
+
+            <button>Editar perfil</button>
+
+            <div class="Data">
+                <p class="Name">Vertrox</p>
+                <p class="User">@VertroxMT</p>
+                <p class="Description">Ingeniería informática. A veces programo videojuegos. <a href="http://instagram.com/ivertrox/">instagram.com/ivertrox/</a></p>
+                <div class="Elements">
+                    <div class="element">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Málaga, España</p>
+                    </div>
+                    <div class="element">
+                        <i class="fa-solid fa-link"></i>
+                        <p>youtube.com/user/iVertrox</p>
+                    </div>
+                    <div class="element">
+                        <i class="fa-regular fa-calendar"></i>
+                        <p>Se unió en diciembre de 2011</p>
+                    </div>
+                </div>
+
+                <div class="following">
+                    <div class="element">
+                        <p class="number">271</p>
+                        <p class="text">Siguiendo</p>
+                    </div>
+                    <div class="element">
+                        <p class="number">6.933</p>
+                        <p class="text">Seguidores</p>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </section>
+</body>
+</html>
